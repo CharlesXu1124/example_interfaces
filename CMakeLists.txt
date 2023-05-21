@@ -47,6 +47,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddTwoInts.srv"
   "srv/SetBool.srv"
   "srv/Trigger.srv"
+  "srv/RoadAssistLLM.srv"
 )
 
 install(FILES mapping_rules.yaml DESTINATION share/${PROJECT_NAME})
